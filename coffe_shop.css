@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    margin:0px;
+    background-color:#0F0F0F;
+}
+
+.hero-section{
+    background-image:url("https://images.unsplash.com/photo-1521017432531-fbd92d768814");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay{
+    background-color:rgba(0,0,0,0.6);
+    height:100vh;
+}
+
+.logo{
+    color:#C49A6C !important;
+    font-family:"Playfair Display";
+    font-size:34px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    font-family:"Roboto";
+    margin-left:18px;
+}
+
+.hero-content{
+    height:85vh;
+    padding-left:80px;
+}
+
+.main-heading{
+    color:white;
+    font-family:"Playfair Display";
+    font-size:72px;
+    width:700px;
+}
+
+.gold-text{
+    color:#C49A6C;
+}
+
+.hero-description{
+    color:#D7CCC8;
+    font-family:"Roboto";
+    font-size:24px;
+    width:500px;
+    margin-top:20px;
+}
+
+.menu-button{
+    background-color:#C49A6C;
+    color:white;
+    border-width:0px;
+    border-radius:30px;
+    height:50px;
+    width:170px;
+    margin-top:20px;
+    margin-right:15px;
+}
+
+.visit-button{
+    background-color:transparent;
+    color:white;
+    border-style:solid;
+    border-width:1px;
+    border-color:#C49A6C;
+    border-radius:30px;
+    height:50px;
+    width:170px;
+}
+
+.special-section{
+    padding:60px;
+    text-align:center;
+    background-color:black;
+}
+
+.small-heading{
+    color:#C49A6C;
+    font-family:"Roboto";
+    font-size:18px;
+}
+
+.section-heading{
+    color:white;
+    font-family:"Playfair Display";
+    font-size:55px;
+    margin-bottom:40px;
+}
+
+.coffee-card{
+    background-color:#1E1E1E;
+    width:320px;
+    border-radius:20px;
+    margin:20px;
+    overflow:hidden;
+}
+
+.coffee-image{
+    height:250px;
+    width:100%;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.coffee-name{
+    color:#C49A6C;
+    font-family:"Playfair Display";
+    font-size:34px;
+}
+
+.coffee-description{
+    color:#D7CCC8;
+    font-family:"Roboto";
+}
+
+.price{
+    color:#C49A6C;
+    font-size:28px;
+    font-family:"Playfair Display";
+}
+
+.story-section{
+    padding:60px;
+    background-color:black;
+}
+
+.story-image{
+    width:45%;
+    border-radius:20px;
+}
+
+.story-content{
+    padding:40px;
+}
+
+.story-heading{
+    color:white;
+    font-family:"Playfair Display";
+    font-size:60px;
+}
+
+.story-description{
+    color:#D7CCC8;
+    font-family:"Roboto";
+    font-size:20px;
+    width:500px;
+}
+
+.why-section{
+    background-color:#F8F4EF;
+    padding:60px;
+    text-align:center;
+}
+
+.dark-text{
+    color:#C49A6C;
+}
+
+.dark-heading{
+    color:#111111;
+    font-family:"Playfair Display";
+    font-size:55px;
+    margin-bottom:40px;
+}
+
+.feature-card{
+    background-color:white;
+    width:320px;
+    padding:30px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#E0C097;
+    border-radius:18px;
+    margin:15px;
+}
+
+.feature-icon{
+    color:#C49A6C;
+    font-size:45px;
+}
+
+.feature-heading{
+    color:#111111;
+    font-family:"Playfair Display";
+    font-size:32px;
+    margin-top:20px;
+}
+
+.feature-description{
+    color:#444444;
+    font-family:"Roboto";
+}
+
+.testimonial-section{
+    padding:60px;
+    text-align:center;
+    background-color:black;
+}
+
+.testimonial-card{
+    background-color:#1E1E1E;
+    width:320px;
+    padding:30px;
+    border-radius:20px;
+    margin:15px;
+}
+
+.stars{
+    color:#C49A6C;
+    font-size:24px;
+}
+
+.testimonial-text{
+    color:white;
+    font-family:"Roboto";
+    font-size:20px;
+}
+
+.customer-name{
+    color:#C49A6C;
+    font-family:"Playfair Display";
+    font-size:28px;
+}
+
+.footer{
+    background-color:black;
+    padding:60px;
+}
+
+.footer-logo{
+    color:#C49A6C;
+    font-family:"Playfair Display";
+    font-size:38px;
+}
+
+.footer-heading{
+    color:#C49A6C;
+    font-family:"Playfair Display";
+    font-size:30px;
+}
+
+.footer-text{
+    color:#D7CCC8;
+    font-family:"Roboto";
+}
+
+@media screen and (max-width:768px){
+
+    .main-heading{
+        font-size:45px;
+        width:100%;
+    }
+
+    .hero-description{
+        width:100%;
+        font-size:18px;
+    }
+
+    .hero-content{
+        padding:30px;
+    }
+
+    .story-image{
+        width:100%;
+    }
+
+    .story-description{
+        width:100%;
+    }
+
+}
